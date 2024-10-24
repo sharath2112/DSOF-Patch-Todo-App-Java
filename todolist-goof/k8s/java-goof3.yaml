@@ -23,6 +23,7 @@ spec:
         securityContext:
           readOnlyRootFilesystem: true
           allowPrivilegeEscalation: false
+          runAsNonRoot: true
         volumeMounts:
           - mountPath: /usr/local/tomcat/temp
             name: tomcat-temp

@@ -1,1 +1,1 @@
-todolist-goof/k8s/kind-init.sh
+toolist-goof/k8s/kind-init.sh
